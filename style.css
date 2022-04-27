@@ -98,7 +98,7 @@ height:100%;
     color:white;
   }
 
-@supports (not (backdrop-filter: blur(1rem))) and (not (-webkit-backdrop-filter: blur(1rem))) {
+@supports not (((-webkit-backdrop-filter: none) or (backdrop-filter: none))) {
   @media (max-width:62em) {
     #mainheader {
       background: hsl(0 0% 0% / 0.75);
