@@ -106,6 +106,10 @@ height:100%;
   #navigator{
     background: hsla(0, 0%, 100%, 0.06)
   }
+	
+  .container .card .content {
+     background-color: #0000008f!important;
+  }
 }
 
 
