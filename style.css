@@ -150,7 +150,7 @@ height:100%;
   }
 
   .mobile-nav-toggle[aria-expanded="true"]{
-    background-image: url(/icons9-close.svg)
+    background-image: url(https://jamiesomers.github.io/icons9-close.svg)
   }
 
   #pagetext p{
@@ -190,7 +190,7 @@ height:100%;
     top: calc(14.8% - 16vw)!important;
     width: calc(85% - 8vw)!important;
     height: 40vh;
-    background-image:url(/imgs/turbine.png)!important;
+    background-image:url(https://jamiesomers.github.io/turbine.png)!important;
 
   }
 
@@ -529,7 +529,7 @@ color: white;
   height: 40vh;
   background-size: contain;
   left: 10vw;
-  background-image: url(/imgs/turbine.png);
+  background-image: url(https://jamiesomers.github.io/turbine.png);
   background-repeat:no-repeat;
 }
 
@@ -580,7 +580,7 @@ color: white;
   height: 40vh;
   background-size: contain;
   left: 6vw;
-  background-image: url(/imgs/gif2.gif);
+  background-image: url(https://jamiesomers.github.io/gif2.gif);
   background-repeat:no-repeat;
 }
 
@@ -879,7 +879,7 @@ color: white;
     display: none;
   }
   body {
-    background: url('/poster.jpg');
+    background: url('https://jamiesomers.github.io/poster.jpg');
     background-size: cover;
   }
 } */
