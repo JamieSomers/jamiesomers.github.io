@@ -713,6 +713,7 @@ color: white;
   z-index: 10;
   flex-direction: column;
   backdrop-filter:blur(24px);
+  -webkit-backdrop-filter: blur(24px);
   box-shadow: 0 -10px 10px rgba(0,0,0,0.1);
   border-top: 1px solid rgba(255,255,255,0.2);
   transition: bottom 0.5s;
