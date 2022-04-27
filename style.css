@@ -449,7 +449,7 @@ color: white;
 #arrow {
   position:absolute;
   width: 5.5vh;
-  top:64.7%;
+  top:67.5vh;
   left:10vw;
   filter:invert(1);
 }
@@ -458,7 +458,7 @@ color: white;
   position:absolute;
   font-family: arial;
   color: white;
-  top: 66.1%;
+  top: 69.1vh;
   left: calc(10vw + 70px);
   font-size: 2vh;
 }
