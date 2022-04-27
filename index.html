@@ -240,9 +240,6 @@
 
   </section>
 
-  <footer><?php include('https://jamiesomers.github.io/form_process.php'); ?><div class="box"><div class="newcontainer"><div class="form"><h2>Get In Touch</h2> <?php $PHP_SELF = htmlspecialchars($_SERVER['PHP_SELF']); ?><form id="CONTACTFORM" action="<?php echo basename($PHP_SELF, '.php');?>#message" method="POST"><div class="inputBox"><fieldset style="border-width:0px"> <input type="text" placeholder="First Name" id="Column1" name="Name" tabindex="0" value="<?= $Name ?>"><div class="error"><?= $Name_error ?></div> <input type="text" id="Column2" placeholder="Last Name" name="Name" tabindex="0" value="<?= $Name ?>"><div class="error"><?= $Name_error ?></div></fieldset></div><div class="inputBox"><fieldset style="border-width:0px"> <input type="text" placeholder="Email" id="Column1" name="Email" tabindex="0" value="<?= $Email ?>"><div class="error"><?= $Email_error ?></div><input type="text" id="Column2" placeholder="Phone" name="Name" tabindex="0" value="<?= $Name ?>"><div class="error"><?= $Name_error ?></fieldset><div class="inputBox"><fieldset style="border-width:0px"><textarea id="message" type="text" name"message" rows="8" cols="50" placeholder="Message" name="Message" tabindex="0" value="<?= $message ?>"></textarea></fieldset><div class="inputBox"><fieldset style="border-width:0px"> <input type="submit" value="Send Message" name="submit"></fieldset></div></form></div></div></div></div></div><div class="box2"><div class="newcontainer"><div class="form2"> <img src="imgs/sent.webp" id="sent"><h2>Message Sent!</h2></div></form></div></div></div></div></div> </footer>
-
-
 
 </div>
 <a class="instagram-share-button" aria-label="Instagram Share Button" target="_blank" href="https://instagram.com/LaserCleanIE" data-size="large">
@@ -328,10 +325,5 @@
       });}
   }
   </script>
-
-  <script type="text/javascript">
-  $(".box2").hide()
-  </script>
-
 </body>
 </html>
