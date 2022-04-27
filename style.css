@@ -631,13 +631,20 @@ color: white;
 
 
 #lasersys{
-  width:77%;
+  width:49%;
   height:auto;
   position:relative;
   max-width:698px;
-  margin-top:-40vh;
+  margin-top:-49vh;
   left:50vw;
   float:left;
+  overflow:hidden;
+}
+
+#divsol{
+  position:relative;
+  overflow:hidden;
+  width:100vw;
 }
 
 #Projects h2{
