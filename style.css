@@ -142,7 +142,7 @@ overflow-y:hidden;
     margin-right: 0vw;
   }
   .mobile-nav-toggle {
-    display: block !important;
+    display: inline-block !important;
     position: fixed;
     width: 12vw;
     aspect-ratio: 1;
@@ -308,6 +308,18 @@ overflow-y:hidden;
   #EmailD {
     width:2.7vh!important;
     padding-top:0.4em!important;
+  }
+	
+  #ShareInstagram {
+     bottom: 21vh!important;
+  }
+	
+  #ShareTwitter {
+     bottom: 28vh!important;
+  }
+	
+  #ShareFacebook {
+     bottom: 14vh!important;
   }
 
 }
