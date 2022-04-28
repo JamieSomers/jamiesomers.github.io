@@ -118,11 +118,12 @@ overflow-y:hidden;
 @media (max-width:62em) {
   #mainheader {
     position:fixed;
-    inset: 0 0 0 30%;
+    /*inset: 0 0 0 30%;*/
     flex-direction:column;
     padding-top:15vh !important;
     padding: 3rem;
     height: 100vh;
+    width:100%!important;
     margin-top: 0vh !important;
     margin-left: 0vw !important;
     backdrop-filter: blur(15px);
