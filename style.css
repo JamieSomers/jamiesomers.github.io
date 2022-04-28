@@ -160,8 +160,9 @@ overflow-y:hidden;
   }
 
   #pagetext p{
-    top: 47% !important;
-    width: 40vh !important;
+    top: 47vh !important;
+    width: 39vh !important;
+    text-align: justify!important;
   }
 
   #pagetext h2{
