@@ -314,14 +314,17 @@ overflow-y:hidden;
 	
   #ShareInstagram {
      bottom: 21vh!important;
+     box-shadow: none!important;
   }
 	
   #ShareTwitter {
      bottom: 28vh!important;
+     box-shadow: none!important;
   }
 	
   #ShareFacebook {
      bottom: 14vh!important;
+     box-shadow: none!important;
   }
 
 }
