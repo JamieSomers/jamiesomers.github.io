@@ -175,6 +175,7 @@ overflow-y:hidden;
   #box{
     width:100vw!important;
     bottom:-10px!important;
+    height:0px!important;
   }
 
   #email{
