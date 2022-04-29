@@ -310,6 +310,12 @@
           <video id="videoBG" src="https://laserclean.ie/WindTurbineStock%20(1).webm" id="video" type="video/mp4" poster="poster.jpg" autoplay loop='true' muted='true'></video>
   </div>
 <script>
+  var host = "laserclean.ie"
+if (window.location.host == host && window.location.protocol != "https:") {
+  window.location.protocol = "https:"
+}
+</script>
+<script>
   document.getElementById('videoBG').play();
 </script>
 <script src="https://laserclean.ie/nav.js" defer></script>
