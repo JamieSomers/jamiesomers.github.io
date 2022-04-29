@@ -500,7 +500,7 @@ color: white;
   position:absolute;
   bottom:0;
   background-color: #1F283A;
-  width:calc(10vw + 460px);
+  width:calc(10vw + 325px);
   height:95px;
 }
 
@@ -510,8 +510,8 @@ color: white;
   color: white;
   bottom:25px;
   left: 10vw;
-  font-size: 1.4vh;
-  width: 28vh;
+  font-size: 1.7vh;
+  width: 29vh;
   line-height:20px;
 }
 
@@ -530,10 +530,9 @@ color: white;
 #funding {
   display:block;
   position:absolute;
-  width:167.25px;
   height:95px;
   bottom: 0;
-  left: calc(10vw + 460px);
+  left: calc(10vw + 326px);
   border-left: 22px solid white;
   border-right: 22px solid white;
 }
@@ -541,10 +540,9 @@ color: white;
 #funding2 {
   display:block;
   position:absolute;
-  width:147.25px;
   height:95px;
   bottom: 0;
-  left: calc(10vw + 41em);
+  left: calc(10vw + 33.8em);
 }
 
 #whitepage{
