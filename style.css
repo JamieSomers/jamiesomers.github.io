@@ -596,12 +596,14 @@ color: white;
  position: relative;
  font-family: arial;
  color: white;
- padding-top:5vh;
+ margin-top:5vh;
  font-size: 2vh;
  width: 47vw;
  text-align:justify;
  float:left;
  left:40vw;
+ background-color:#1f283a;
+ z-index:10;
 }
 
 #Graph{
