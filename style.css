@@ -147,7 +147,7 @@ overflow-y:hidden;
     width: 12vw;
     aspect-ratio: 1;
     top: 2.5vh;
-    right: 7vw;
+    right: 26px;
     z-index:9999;
     background: url(https://jamiesomers.github.io/Hamburger_icon.svg) no-repeat;
     filter:invert(1);
