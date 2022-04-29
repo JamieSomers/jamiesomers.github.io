@@ -234,6 +234,7 @@ overflow-y:hidden;
 
   #Solution h2{
     top:11vh!important;
+    margin-top: -2vh!important;
   }
 
   #SolBlurb {
