@@ -187,6 +187,7 @@ overflow-y:hidden;
 
   #email{
     left: calc(21vw + 131px)!important;
+    margin-left: 15vw!important;
   }
 
   #funding{
@@ -518,12 +519,11 @@ color: white;
   position: absolute;
   font-family: arial;
   color: white;
-  bottom: 44px;
+  bottom: 25px;
   left: calc(15vw + 131px);
   font-size: 1.4vh;
   width: 14vh;
   line-height:20px;
-  transform: translate(50%, 50%);
 }
 
 #funding {
