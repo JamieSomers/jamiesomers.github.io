@@ -640,6 +640,8 @@ color: white;
   font-size: 2vh;
   width: 45vw;
   text-align:justify;
+  background-color: #1f283a;
+  z-index: 10;
 }
 
 #responsive{
