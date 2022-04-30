@@ -887,6 +887,26 @@ color: white;
   cursor:pointer;
 }
 
+#button2{
+  width:130px;
+  background-color:#6ea66e;
+  border-radius:6px;
+  height:29px;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+
+#button3{
+  width:130px;
+  background-color:#6ea66e;
+  border-radius:6px;
+  height:29px;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+
 .box{position:relative;padding-top:15vh;left:25%}
 
 .box2{position:absolute;top:210vw;left:30vw}
