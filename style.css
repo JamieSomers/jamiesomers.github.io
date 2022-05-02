@@ -62,7 +62,7 @@ overflow-y:hidden;
   font-family: 'Kanit', sans-serif;
   font-size:4vh;
   color:white;
-  margin-left:3%;
+  margin-left:8vh;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -107,7 +107,7 @@ overflow-y:hidden;
   #navigator{
     background: #000000b0
   }
-	
+
   .container .card .content {
      background-color: #0000008f!important;
   }
@@ -115,7 +115,7 @@ overflow-y:hidden;
 
 
 
-@media (max-width:62em) {
+@media (max-width:68em) {
   #mainheader {
     position:fixed;
     /*inset: 0 0 0 30%;*/
@@ -133,9 +133,17 @@ overflow-y:hidden;
     transform: translateX(100%);
     transition: transform 350ms ease-out;
   }
-	
+
 #mainheader[data-visible="true"] {
   transform: translateX(0%);
+}
+
+#Logo{
+  display:none!important;
+}
+
+#textdiv h1{
+  margin-left:3%!important;
 }
 
   .mainheader nav ul li #contact{
@@ -261,6 +269,12 @@ overflow-y:hidden;
     margin-top:50vh!important;
   }
 
+  #ContactUs h2{
+    left: 2%!important;
+    font-size: 5.7vh!important;
+    text-align:center!important;
+  }
+
   #ProjectsBlurb {
    width: 76vw!important;
   }
@@ -308,7 +322,6 @@ overflow-y:hidden;
 
   #LinkedinD{
     width: 2.5vh!important;
-    padding-top: 0.1em!important;
     }
 
   #ResearchD{
@@ -318,19 +331,18 @@ overflow-y:hidden;
 
   #EmailD {
     width:2.7vh!important;
-    padding-top:0.4em!important;
   }
-	
+
   #ShareInstagram {
      bottom: 16vh!important;
      box-shadow: none!important;
   }
-	
+
   #ShareTwitter {
      bottom: 23vh!important;
      box-shadow: none!important;
   }
-	
+
   #ShareFacebook {
      bottom: 9vh!important;
      box-shadow: none!important;
@@ -715,6 +727,13 @@ color: white;
   min-height: 50vh;
 }
 
+.ContactUs{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height: 50vh;
+}
+
 .container {
   position:relative;
   display:flex;
@@ -732,6 +751,19 @@ color: white;
   overflow:hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   border-radius: 2vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container .card2 {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  margin-top:0px;
+  margin-bottom:-90px;
+  overflow:hidden;
   display:flex;
   justify-content:center;
   align-items: center;
@@ -757,6 +789,17 @@ color: white;
   transition-delay: 0.8s;
 }
 
+.container .card2 .content {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .container .card:hover .content {
   bottom: 0px;
   transition-delay: 0s;
@@ -775,6 +818,31 @@ color: white;
   transform: translateY(-20px);
   transition-delay:0.6s;
   font-family:arial;
+}
+
+.container .card2 .content .contentBx h3 {
+  color: white;
+  font-size:3vh;
+  text-align: center;
+  margin: 20px 0 15px;
+  font-family:arial;
+}
+
+.container .card2 .content .contentBx p {
+  color: white;
+  text-align: center;
+  margin: 20px 0 15px;
+  font-family:arial;
+  width:206px;
+  margin:auto;
+}
+
+.container .card2 .content .contentBx a {
+  color: white;
+  text-align: center;
+  margin: 20px 0 15px;
+  font-family:arial;
+  width:183px
 }
 
 .container .card:hover .content .contentBx h3 {
@@ -844,37 +912,31 @@ color: white;
 #LinkedinD{
       width: 1.6vh;
       filter: invert(1);
-      padding-top:0.3em;
 }
 
 #TwitterC{
       width: 1.6vh;
       filter: invert(1);
-      padding-top:0.25vw;
 }
 
 #ResearchC{
     width: 1.8vh;
     filter: invert(1);
-    padding-top:0.2vw;
 }
 
 #ResearchD{
     width: 1.8vh;
     filter: invert(1);
-    padding-top:0.35em;
 }
 
 #EmailC{
     width: 1.8vh;
     filter: invert(1);
-    padding-top:0.35em
 }
 
 #EmailD{
     width: 1.8vh;
     filter: invert(1);
-    padding-top:0.49em
 }
 
 #button{
@@ -938,6 +1000,51 @@ color: white;
   position:relative;
   left:75%;
   top:-3vw;
+}
+
+#Logo{
+  display:block;
+  position:absolute;
+  width:5vh;
+  top:27%;
+  margin-left:1%;
+}
+
+li {
+    height: 30px!important;
+    line-height: 30px!important;
+}
+
+#ContactUs h2{
+  position: relative;
+  font-family: arial;
+  color: white;
+  font-size: 7.2vh;
+  width: 90vw;
+  text-align:center;
+  margin:auto;
+  margin-top:0vh!important;
+}
+
+#ContactUs h2 span{
+  color: #6ea66e;
+}
+
+#phoneicon{
+  width:185px;
+}
+
+#locationicon{
+  width:185px;
+  padding-bottom: 1vw;
+}
+
+#mailicon{
+  width:185px;
+}
+
+#Loc{
+  padding-top:4vh;
 }
 /* @media (max-width: 767px) {
   #videoBG {
