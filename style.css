@@ -899,7 +899,10 @@ color: white;
 }
 
 #James{
-  width:400px;
+  position:absolute;
+  width: 604px;
+  top: -74px;
+  left: -151px;
 }
 
 #Ares{
