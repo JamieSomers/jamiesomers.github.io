@@ -1,0 +1,301 @@
+*{margin:0;padding:0;list-style:none;text-decoration:none}
+html,body{
+  width:100vw;
+  height:100%;
+  margin:0;
+  overflow-x:hidden;
+  overflow-y:overlay;
+  background-color:#6EA66E;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+a:visited{
+  text-decoration:none;
+  color:white;
+}
+
+.home-bg ::-webkit-scrollbar{width:12px;transition:opacity .25s linear}@media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none){.home-bg ::-webkit-scrollbar{width:0!important;transition:0!important;} }}.home-bg ::-webkit-scrollbar-track{background:0 0;border-radius:10px}#BlogDate{font-family: OpenSans-Light;position:absolute;top:41.8vw;width:38.5vw;text-align:right;left:27vw;z-index:1;font-size:1.25vw}.home-bg ::-webkit-scrollbar-thumb{background:0 0;border-radius:10px;overflow:visible}iframe{height:39.35vw;width:70vw;border-top-right-radius: 2.5vw;border-top-left-radius: 2.5vw;}.home-bg ::-webkit-scrollbar-thumb:hover{background:#ffffff80}
+
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important;  /* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;            /* 3 */
+}
+
+.flex{
+  display: flex;
+  gap: var(--gap, 4rem);
+}
+#navigator{
+  position:fixed;
+  height:10%;
+  width:100vw;
+  border-color:white;
+  border-bottom:0.5px solid #cccccc40!important;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index:1000;
+}
+
+#textdiv h1{
+  position:absolute;
+  top: 18%;
+  font-family: 'Kanit', sans-serif;
+  font-size:4vh;
+  color:white;
+  margin-left:8vh;
+}
+
+  .mainheader {
+  font-family: 'Kanit', sans-serif;
+  }
+  .mainheader nav ul li{
+    font-size:2vh;
+  }
+  .mainheader nav ul li #contact{
+    margin-right: 5vw;
+  }
+  .mainheader nav ul li #SEAI{
+    border: 7px solid rgb(37 30 88);
+    list-style-position: inside;
+    border-width: 59px;
+    border-block-width: 3.4vh;
+    background-color: rgb(37 30 88);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color:white;
+  }
+
+@supports not (((-webkit-backdrop-filter: none) or (backdrop-filter: none))) {
+  @media (max-width:62em) {
+    #mainheader {
+      background: hsl(0 0% 0% / 0.75);
+    }}
+  #navigator{
+    background: #000000b0
+  }
+}
+
+
+
+@media (max-width:68em) {
+  #mainheader {
+    position:fixed;
+    /*inset: 0 0 0 30%;*/
+    flex-direction:column;
+    padding-top:15vh !important;
+    padding: 3rem;
+    height: 100vh;
+    width:100%!important;
+    margin-top: 0vh !important;
+    margin-left: 0vw !important;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background: #ffffff1f;
+    z-index:9999;
+    transform: translateX(100%);
+    transition: transform 350ms ease-out;
+  }
+
+  h1#error-message{
+    font-size:50vw!important;
+    transform: translateY(100px)!important;
+    background-position:bottom!important;
+  }
+
+  p#error-message{
+    font-size:8vw!important;
+    max-width:100vw!important;
+    margin-top:-10%!important;
+    transform: translateY(100px)!important;
+  }
+
+  #button{
+    padding-right:6vw!important;
+    padding-left:6vw!important;
+    border-radius:5vw!important;
+    font-size:5vw!important;
+    left:37vw!important;
+    top:26vw!important;
+    transform:translateY(100px)!important;
+  }
+
+#mainheader[data-visible="true"] {
+  transform: translateX(0%);
+}
+
+#Logo{
+  display:none!important;
+}
+
+#textdiv h1{
+  margin-left:3%!important;
+}
+
+  .mainheader nav ul li #contact{
+    margin-right: 0vw;
+  }
+  .mobile-nav-toggle {
+    display: inline-block !important;
+    position: fixed;
+    width: 12vw;
+    aspect-ratio: 1;
+    top: 2.5vh;
+    right: 26px;
+    z-index:9999;
+    background: url(https://jamiesomers.github.io/Hamburger_icon.svg) no-repeat;
+    filter:invert(1);
+    border:none;
+    background-size:5vh;
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"]{
+    background-image: url(https://jamiesomers.github.io/icons9-close.svg)
+  }
+
+}
+
+.mobile-nav-toggle {
+  display:none;
+}
+
+#mainheader{
+  align-items: center;
+  justify-content:right;
+  list-style:none;
+  padding:0;
+  width:70%;
+  margin-left:30vw;
+  margin-top:3.5vh;
+  position:fixed;
+  z-index:9998;
+}
+
+#home, #about, #projects, #contact{
+  display: inline-block;
+position: relative;
+color: white;
+}
+
+
+ #home:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(1);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   top: -18px;
+   background-color: white;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+}
+
+#home:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(1);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  top: -18px;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#about:after, #projects:after, #contact:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  top: -18px;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+#home:hover:after, #about:hover:after, #projects:hover:after, #contact:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#Logo{
+  display:block;
+  position:absolute;
+  width:5vh;
+  top:27%;
+  margin-left:1%;
+  filter: contrast(1) invert(0) grayscale(1) contrast(10);
+}
+
+li {
+    height: 30px!important;
+    line-height: 30px!important;
+}
+
+h1#error-message{
+  font-size:30vw;
+  font-family: 'Kanit', sans-serif;
+  margin:auto;
+  text-align:center;
+  transform: translateY(0px);
+  margin-top:-3%;
+  background-image: url(/imgs/demo.jpg);
+background-size: contain;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+color: transparent;
+text-shadow: rgba(255,255,255,0.1) 0px 3px 3px;
+position:relative;
+}
+p#error-message{
+  position:relative;
+  font-family: arial;
+  color:white;
+  font-size:4vw;
+  max-width:100vw;
+  margin-top:-10%;
+  text-align:center;
+  transform: translateY(0px);
+}
+#button{
+  position:relative;
+  width:240vw;
+  padding:1vw;
+  padding-right:3vw;
+  padding-left:3vw;
+  background:white;
+  border-radius:2vw;
+  font-size:1vw;
+  color:#6ea66e;
+  font-family:kanit;
+  left:46vw;
+  top:3vw;
+}
+/* @media (max-width: 767px) {
+  #videoBG {
+    display: none;
+  }
+  body {
+    background: url('https://jamiesomers.github.io/poster.jpg');
+    background-size: cover;
+  }
+} */
