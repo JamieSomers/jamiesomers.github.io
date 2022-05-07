@@ -42,7 +42,7 @@ a:visited{
 #gradient {
 background: linear-gradient(to left, #ffffff00 0%, #1F283A 80%);
 width:100%;
-height:auto;
+height:100%;
 overflow:hidden;
 pointer-events: none;
 position:absolute;
@@ -226,7 +226,7 @@ position:absolute;
 
   #gradient {
   background: linear-gradient(to left, #ffffff00 0%, #1F283A 80%),linear-gradient(to bottom, #ffffff00 0%, #1F283A 90%)!important;
-  height: 100vh!important;
+  height: auto!important;
   pointer-events: none!important;
   overflow:hidden!important;
   }
