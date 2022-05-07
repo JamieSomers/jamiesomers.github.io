@@ -226,7 +226,8 @@ position:absolute;
 
   #gradient {
   background: linear-gradient(to left, #ffffff00 0%, #1F283A 80%),linear-gradient(to bottom, #ffffff00 0%, #1F283A 90%)!important;
-  height: auto!important;
+  min-height:100vh!important;
+  min-height: -webkit-fill-available!important;
   pointer-events: none!important;
   overflow:hidden!important;
   }
