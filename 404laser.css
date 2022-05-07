@@ -152,14 +152,14 @@ a:visited{
     top: 2.5vh;
     right: 26px;
     z-index:9999;
-    background: url(https://jamiesomers.github.io/Hamburger_icon.svg) no-repeat;
+    background: url(https://laserclean.ie/Hamburger_icon.svg) no-repeat;
     filter:invert(1);
     border:none;
     background-size:5vh;
   }
 
   .mobile-nav-toggle[aria-expanded="true"]{
-    background-image: url(https://jamiesomers.github.io/icons9-close.svg)
+    background-image: url(https://laserclean.ie/icons9-close.svg)
   }
 
 }
@@ -255,7 +255,7 @@ h1#error-message{
   text-align:center;
   transform: translateY(0px);
   margin-top:-3%;
-  background-image: url(/imgs/demo.jpg);
+  background-image: url(https://laserclean.ie/demo.jpg);
 background-size: contain;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -290,12 +290,3 @@ p#error-message{
   left:46vw;
   top:3vw;
 }
-/* @media (max-width: 767px) {
-  #videoBG {
-    display: none;
-  }
-  body {
-    background: url('https://jamiesomers.github.io/poster.jpg');
-    background-size: cover;
-  }
-} */
