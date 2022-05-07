@@ -43,9 +43,9 @@ a:visited{
 background: linear-gradient(to left, #ffffff00 0%, #1F283A 80%);
 width:100%;
 height:100%;
-overflow-y:hidden;
+overflow:hidden;
 pointer-events: none;
-position:relative;
+position:absolute;
 }
 #navigator{
   position:fixed;
