@@ -478,6 +478,7 @@ color: white;
   left: 10vw;
   font-size: 7.4vh;
   width: 90vw;
+  z-index: 1000;
 }
 
 #About h2 span{
