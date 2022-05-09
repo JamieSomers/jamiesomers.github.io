@@ -1,20 +1,13 @@
-window.addEventListener("DOMContentLoaded", function() {
-  let boxes = document.querySelectorAll(".box");
+<!DOCTYPE html>
+<head>
 
-  Array.from(boxes, function(box) {
-    box.addEventListener("click", function() {
-      alert(this.classList[1]);
-    });
-  });
-});
-
+<style class="cp-pen-styles">
 body {
   margin: 40px;
 }
 
 .wrapper {
   display: grid;
-  grid-template-rows: 100px 100px;
   grid-template-columns: 100px 100px 100px;
   grid-gap: 10px;
   background-color: #fff;
@@ -25,20 +18,16 @@ body {
   background-color: #444;
   color: #fff;
   border-radius: 5px;
-/*   padding: 20px; */
+  padding: 20px;
   font-size: 150%;
-  cursor: pointer;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+}</style>
+</head>
+<body>
 <div class="wrapper">
-  <div class="box a">A</div>
-  <div class="box b">B</div>
-  <div class="box c">C</div>
-  <div class="box d">D</div>
-  <div class="box e">E</div>
-  <div class="box f">F</div>
+  <a class="box a" href="some_link">A</a>
+  <a class="box b" href="some_link">B</a>
+  <a class="box c" href="some_link">C</a>
+  <a class="box d" href="some_link">D</a>
+  <a class="box e" href="some_link">E</a>
+  <a class="box f" href="some_link">F</a>
 </div>
