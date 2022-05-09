@@ -122,6 +122,13 @@
 <div id="gradient">
           <video id="videoBG" id="video" type="video/mp4" poster="poster.webp" autoplay loop='true' muted='true'></video>
   </div>
+  
+  <script>
+  var host = "laserclean.ie"
+if (window.location.host == host && window.location.protocol != "https:") {
+  window.location.protocol = "https:"
+}
+</script>
 
 <script>
   document.getElementById('videoBG').play();
