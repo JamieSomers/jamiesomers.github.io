@@ -130,10 +130,23 @@ if (window.location.host == host && window.location.protocol != "https:") {
 }
 </script>
 
-<script>
-  document.getElementById('videoBG').play();
-</script>
 
+  <script src="https://laserclean.ie/nav.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+  var text = ["Laser Clean."];
+  var counter = 0;
+  var elem = $("#str");
+  setInterval(change, 4000);
+  function change() {
+    if (counter == 0){
+      elem.fadeOut(function(){
+          elem.html(text[0]);
+          counter++;
+          elem.fadeIn();
+      });}
+  }
+  </script>
   
         <section class="meet-the-team">
     <div class="container">
