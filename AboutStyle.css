@@ -72,7 +72,7 @@ overflow-y:hidden;
   }
 
   #labimage{
-    background:linear-gradient(90deg, #1f283a 35%, transparent 40%), linear-gradient(360deg, #1f283a 5%, transparent 80%), url('/imgs/laboratory.png');
+    background:linear-gradient(90deg, #1f283a 35%, transparent 40%), linear-gradient(360deg, #1f283a 5%, transparent 80%), url('https://laserclean.ie/laboratory.png');
     position:relative;
     width:83%!important;
     left:17vw;
@@ -83,7 +83,7 @@ overflow-y:hidden;
   }
 
   #opticsbench{
-    background:linear-gradient(270deg, #1f283a 35%, transparent 70%), linear-gradient(180deg, #1f283a 1%, transparent 20%), linear-gradient(360deg, #1f283a 1%, transparent 20%), url('/imgs/opticsbench.png');
+    background:linear-gradient(270deg, #1f283a 35%, transparent 70%), linear-gradient(180deg, #1f283a 1%, transparent 20%), linear-gradient(360deg, #1f283a 1%, transparent 20%), url('https://laserclean.ie/opticsbench.png');
     position:relative;
     width:83%!important;
     left:0vw;
@@ -110,7 +110,7 @@ overflow-y:hidden;
   }
 
   #labimage{
-    background:linear-gradient(90deg, #1f283af2 70%, transparent 170%), linear-gradient(360deg, #1f283af2 5%, transparent 10%), url('/imgs/laboratory.png');
+    background:linear-gradient(90deg, #1f283af2 70%, transparent 170%), linear-gradient(360deg, #1f283af2 5%, transparent 10%), url('https://laserclean.ie/laboratory.png');
     position:relative;
     width:100vw!important;
     left:0vw;
@@ -121,7 +121,7 @@ overflow-y:hidden;
   }
 
   #opticsbench{
-    background:linear-gradient(270deg, #1f283a 70%, transparent 170%), linear-gradient(180deg, #1f283af2 5%, transparent 10%), url('/imgs/opticsbench.png');
+    background:linear-gradient(270deg, #1f283a 70%, transparent 170%), linear-gradient(180deg, #1f283af2 5%, transparent 10%), url('https://laserclean.ie/opticsbench.png');
     position:relative;
     width:100vw!important;
     left:0vw;
