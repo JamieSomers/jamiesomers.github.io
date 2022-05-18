@@ -1238,7 +1238,7 @@ li {
   position: relative;
     font-family: arial;
     color: #6ea66e;
-    padding-top: 7vh;
+    top: -80vh;
     font-size: 8.4vh;
     text-align: center;
     width: 55vw;
