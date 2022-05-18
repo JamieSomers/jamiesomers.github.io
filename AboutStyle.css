@@ -1357,7 +1357,7 @@ li {
 
 .hex2{
   margin-top:-303.5px;
-  width: 100vw;
+  width: 55vw;
 }
 
 .hex2::before {
@@ -1368,14 +1368,15 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(2px 2px 20px #0d0d0dba);
-  left: 90%;
-  margin-left: -156px;
+  left: 40%;
+  text-align: center;
+  display:block;
   top: -3px;
 }
 
 .hex3{
   margin-top:-303.5px;
-  width: 100vw;
+  width: 55vw;
 }
 
 .hex3::before {
@@ -1386,8 +1387,9 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(2px 2px 20px #0d0d0dba);
-  left: 90%;
-  margin-left: -156px;
+  left: 40%;
+  text-align: center;
+  display:block;
   top: -3px;
 }
 
@@ -1437,7 +1439,7 @@ h3#date2{
 
 .hex4{
   margin-top:-270.5px;
-  width:100vw;
+  width:55vw;
 }
 
 .hex4::before {
@@ -1448,8 +1450,9 @@ h3#date2{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(2px 2px 20px #0d0d0dba);
-  left: 90%;
-  margin-left: -156px;
+  left: 40%;
+  text-align: center;
+  display:block;
   top: -3px;
 }
 
