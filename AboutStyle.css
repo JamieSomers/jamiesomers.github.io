@@ -1337,7 +1337,7 @@ li {
 }
 
 .hex1 {
-  width:100vw;
+  width:55vw;
 }
 
 .hex1::before {
@@ -1348,9 +1348,10 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(2px 2px 20px #0d0d0dba);
-  left: 90%;
-  margin-left: -156px;
+  left: 40%;
   top: -3px;
+  text-align: center;
+  display:block;
 
 }
 
