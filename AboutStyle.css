@@ -502,6 +502,10 @@ overflow-y:hidden;
     left:0%!important;
     width: 100vw!important;
   }
+	
+   #footerimage{
+	height:11%!important;
+	width:auto!important;}
 
 
 
