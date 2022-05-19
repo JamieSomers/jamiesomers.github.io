@@ -1466,12 +1466,13 @@ h3#date2{
 }
 
 #footerimage{
-position: absolute;
+position: relative;
 left:0vw;
 z-index:0;
-bottom: -20vw;
+bottom: 0vw;
 width: 100%;
 height: auto;
+margin-top:-32vw;
 }
 /* @media (max-width: 767px) {
   #videoBG {
