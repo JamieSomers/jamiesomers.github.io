@@ -508,7 +508,12 @@ overflow-y:hidden;
 	width:auto!important;
 	transform:translateX(calc((120vw - 120%) / 2))!important;}
 
-
+#timelinetext{
+Display:none!important;
+}
+#timelinetext2{
+Display:none!important;
+}
 
 
 }
