@@ -506,7 +506,7 @@ overflow-y:hidden;
    #footerimage{
 	height:11%!important;
 	width:auto!important;
-	left:-55vw!important}
+	transform:translateX(calc((120vw - 120%) / 2))!important;}
 
 
 
