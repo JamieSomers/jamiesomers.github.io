@@ -1474,6 +1474,18 @@ width: 100%;
 height: auto;
 margin-top:-32vw;
 }
+
+#timelinetext{
+position: relative;
+white-space: ;
+color: white;
+fallback: ;
+font-family: Arial;
+width: 33vw;
+left: 62vw;
+top: -23vw;
+}
+}
 /* @media (max-width: 767px) {
   #videoBG {
     display: none;
