@@ -469,28 +469,28 @@ overflow-y:hidden;
   }
 
   .hex1::before {
-    left: 50%!important;
+    left: 33%!important;
   }
 
   .hex2::before {
-    left: 50%!important;
+    left: 33%!important;
   }
 
   .hex3::before {
-    left: 50%!important;
+    left: 33%!important;
   }
 
   .hex4::before {
-    left: 50%!important;
+    left: 33%!important;
   }
 
   .vl2 {
-    left: 10%!important;
+    left: -41%!important;
     width: 1px!important;
   }
 
   .vl {
-    left: 10%!important;
+    left: -41%!important;
     width: 1px!important;
   }
 
