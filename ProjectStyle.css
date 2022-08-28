@@ -233,6 +233,17 @@ overflow:hidden;
     width:100%;
     height:auto;
   }
+	  .arrow {
+    padding: 16px!important;
+  }
+
+  .right-carousel-control{
+      width: 100px!important;
+  }
+
+  .left-carousel-control{
+      width: 100px!important;
+  }
 
   #labimage{
     background:linear-gradient(90deg, #1f283a 35%, transparent 40%), linear-gradient(360deg, #1f283a 5%, transparent 80%), url('/imgs/laboratory.png');
