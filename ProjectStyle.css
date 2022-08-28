@@ -840,7 +840,7 @@ text-decoration:none;
   text-align:left;
   width: 60vw;
   font-weight: bold;
-  z-index:10;
+  z-index:100;
 }
 
 #pagetext h2{
@@ -852,7 +852,7 @@ text-decoration:none;
   text-align:center;
   width: 100vw;
   font-weight: bold;
-  z-index:10
+  z-index:100;
 }
 
 #pagetext h2 span{
@@ -879,7 +879,7 @@ text-decoration:none;
   font-size: 2vh;
   width: 47vw;
   text-shadow: 1px 1px 11px #0000007d;
-  z-index:10;
+  z-index:100;
 
 }
 
@@ -895,6 +895,7 @@ text-decoration:none;
   text-align: center;
   align-items: center;
   left: 16.5vw;
+  z-index: 100;
 }
 
 #pagetext button:hover{
