@@ -477,7 +477,8 @@ overflow:hidden;
     left: 13%!important;
   }
 
-  #pagetext h2{
+  #
+	h2{
     font-size: 5.4vh !important;
     top:34%!important;
   }
@@ -830,7 +831,7 @@ text-decoration:none;
   position: absolute;
   font-family: arial;
   color: white;
-  top: 28%;
+  top: 62%;
   left:27%;
   font-size: 3.4vh;
   text-align:left;
@@ -843,7 +844,7 @@ text-decoration:none;
   position: absolute;
   font-family: arial;
   color: white;
-  top: 35%;
+  top: 67%;
   font-size: 11.4vh;
   text-align:center;
   width: 100vw;
