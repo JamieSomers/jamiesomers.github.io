@@ -799,7 +799,7 @@ color: white;
 text-decoration:none;
 }
 
-#home:after, #about:after, #projecs:after, #contact:after {
+#home:after, #about:after, #projects:after, #contact:after {
   content: '';
   position: absolute;
   width: 100%;
