@@ -66,6 +66,15 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
   to {opacity: 1}
 }
 
+.mySlides{
+    display: block;
+    background-image: linear-gradient(#ff000000, #080808);
+    height: 98vh;
+    border-bottom-left-radius: 17vw;
+    border-bottom-right-radius: 17vw;
+    top: -2vw;
+}
+
 .Séamus-Background{
   background-image: url("/shutterstock_651111889.jpg");
   width: 100%;
@@ -73,7 +82,6 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
   padding-top: 66.64%; /* (img-height / img-width * container-width) */
               /* (853 / 1280 * 100) */
   overflow-y:hidden;
-  filter:brightness(0.5);
   overflow:hidden;
   position: absolute;
 z-index: -1;
