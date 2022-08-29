@@ -221,6 +221,12 @@ background-size: contain;
 	margin-left: 14vw;
 	text-align: justify;
 	margin-top: 3vw;
+	word-wrap: break-word;
+	font-size: 1rem;
+	font-weight: normal;
+	color: #111111;
+	font-family: var(--font-base, "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif);
+	line-height: 1.6;
 }
 
 #gradient {
