@@ -217,6 +217,7 @@ overflow:hidden;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   z-index:1000;
+  background-color: #00000061;
 }
 
 #textdiv h1{
