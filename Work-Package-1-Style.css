@@ -1021,7 +1021,7 @@ font-size: 3vh;
 #whitepage{
   position:absolute;
   width:100vw;
-  height:100vh;
+  height:auto;
   top:calc(100vh - calc(100vh - 100%));
   background-color:white;
   z-index: 100;
