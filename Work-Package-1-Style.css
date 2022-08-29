@@ -819,12 +819,12 @@ text-decoration:none;
 }
 
 #pagetext h3{
-  position:absolute;
-  font-family: arial;
-  color: white;
-  top: 25%;
-  left: 10vw;
-  font-size: 3vh;
+position: absolute;
+font-family: arial;
+color: white;
+top: 62%;
+left: 54vw;
+font-size: 3vh;
 }
 
 #pagetext h1{
