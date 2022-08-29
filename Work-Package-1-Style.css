@@ -216,12 +216,10 @@ background-size: contain;
 
 #blogbody{
 	width: 71vw;
-	font-size: 1.5vw;
 	margin-left: 14vw;
 	text-align: justify;
 	margin-top: 3vw;
 	word-wrap: break-word;
-	font-size: 1rem;
 	font-weight: normal;
 	color: #111111;
 	font-family: var(--font-base, "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif);
