@@ -216,8 +216,11 @@ background-size: contain;
 
 #blogbody{
 	font-family: arial;
-	width: 10vw;
-	font-size: 3vw;
+	width: 71vw;
+	font-size: 1.5vw;
+	margin-left: 14vw;
+	text-align: justify;
+	margin-top: 3vw;
 }
 
 #gradient {
