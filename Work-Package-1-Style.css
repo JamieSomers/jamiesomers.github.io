@@ -224,6 +224,7 @@ background-size: contain;
 	color: #111111;
 	font-family: var(--font-base, "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif);
 	line-height: 1.6;
+	font-size: 1.3em;
 }
 
 #gradient {
