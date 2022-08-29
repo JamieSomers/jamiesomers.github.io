@@ -786,36 +786,7 @@ color: white;
 text-decoration:none;
 }
 
-
- #projects:after {
-   content: '';
-   position: absolute;
-   width: 100%;
-   transform: scaleX(1);
-   height: 2px;
-   bottom: 0;
-   left: 0;
-   top: -18px;
-   background-color: white;
-   transform-origin: bottom right;
-   transition: transform 0.25s ease-out;
-}
-
-#projects:after{
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(1);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  top: -18px;
-  background-color: white;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-#home:after, #about:after, #contact:after {
+#home:after, #about:after, #projecs:after, #contact:after {
   content: '';
   position: absolute;
   width: 100%;
