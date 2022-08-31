@@ -86,6 +86,9 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
   position: absolute;
 z-index: -1;
 background-size: contain;
+border-bottom-left-radius: 17vw;
+border-bottom-right-radius: 17vw;
+top: -17vw;
 }
 
 @media (max-width: 93em){
