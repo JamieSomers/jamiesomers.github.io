@@ -71,7 +71,8 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
     height: 100vh;
     border-bottom-left-radius: 17vw;
     border-bottom-right-radius: 17vw;
-    top: -2vw;
+    top: -4vw;
+    position: absolute;
 }
 
 .Séamus-Background{
