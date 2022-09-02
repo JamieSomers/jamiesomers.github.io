@@ -858,7 +858,7 @@ text-decoration:none;
     width: 100vw;
     font-weight: bold;
     z-index: 100;
-    left: 30%;
+    padding-left: 11vw;
 }
 
 #pagetext h1{
@@ -1845,12 +1845,13 @@ h3#date2{
   top: -3px;
 }
 
-@media (max-width: 65em){
+@media (max-width: 75em){
 	  #pagetext h3 {
     top:75%!important;
     left: 0vw!important;
     width: 100vw!important;
     text-align:center!important;
+    padding-left: 0vw!important;
 	}}
 
 #footer{
