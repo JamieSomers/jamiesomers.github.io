@@ -80,7 +80,7 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
     position: absolute;
     z-index: -1;
     top: -23vw;
-    background-image: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%,rgba(0,0,0,0.7) 100%), url(/shutterstock_651111889.jpg);
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%,rgb(0 0 0) 100%), url(/shutterstock_651111889.jpg);
     background-size: auto 100%;
     background-position: center top;
     background-repeat: no-repeat;
