@@ -67,12 +67,14 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
 }
 
 .mySlides{
-    display: block;
+display: block;
     height: 100vh;
     border-bottom-left-radius: 17vw;
     border-bottom-right-radius: 17vw;
-    top: -4vw;
+    top: 9vw;
     position: absolute;
+    width: 65vw;
+    margin-left: 0vw;
 }
 
 .Séamus-Background{
@@ -856,15 +858,13 @@ text-decoration:none;
 }
 
 #pagetext h1{
+    position: absolute;
     font-family: arial;
     color: white;
-    top: 62%;
-    left: 40%;
-    margin-top: 32vw;
-    margin-left: 28vw;
-    font-size: 3.4vh;
-    text-align: left;
-    width: 60vw;
+    top: 45%;
+    font-size: 11.4vh;
+    text-align: center;
+    width: 100vw;
     font-weight: bold;
     z-index: 100;
 }
