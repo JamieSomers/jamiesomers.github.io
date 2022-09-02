@@ -83,7 +83,7 @@ display: block;
     position: absolute;
     z-index: -1;
     top: -58vw;
-    background-image: linear-gradient(to bottom, rgb(0 0 0 / 0%) 50%,rgb(0 0 0) 100%), url(https://kyounglab.umbc.edu/wp-content/uploads/sites/254/2018/11/1.jpg);
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 0%) 50%,rgb(0 0 0) 80%), url(https://kyounglab.umbc.edu/wp-content/uploads/sites/254/2018/11/1.jpg);
     background-size: auto 100%;
     background-position: center top;
     background-repeat: no-repeat;
@@ -93,6 +93,7 @@ display: block;
     border-bottom-right-radius: 24vw;
     margin-top: 7vw;
     border-bottom-left-radius: 24vw;
+    background-position-y: 20vw;
 }
 
 @media (max-width: 93em){
