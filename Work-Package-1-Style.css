@@ -519,8 +519,9 @@ overflow:hidden;
 
   #pagetext h3 {
     top:75%!important;
-    left: 16vw!important;
-    width: 67vw!important;
+    left: 0vw!important;
+    width: 100vw!important;
+    text-align:center!important;
   }
 
   #WhoWeAre h2{
