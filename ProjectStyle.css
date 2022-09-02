@@ -1027,7 +1027,7 @@ text-decoration:none;
   height:auto;
   top:calc(100vh - calc(100vh - 100%));
   background-color:#1f283a;
-  z-index: 100;
+  z-index: 101;
   padding-bottom: 9vh;
 }
 
