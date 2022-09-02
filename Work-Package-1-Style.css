@@ -513,6 +513,11 @@ overflow:hidden;
     top: 49%!important;
     left: -30%!important;
   }
+	
+  #pagetext h3{
+    top: 49%!important;
+    left: -30%!important;
+  }
 
   #
 	h2{
@@ -856,9 +861,12 @@ text-decoration:none;
     font-family: arial;
     color: white;
     top: 45%;
-    left: 54vw;
-    font-size: 3vh;
-    width: 40vw;
+    font-size: 3.4vh;
+    text-align: center;
+    width: 100vw;
+    font-weight: bold;
+    z-index: 100;
+    left: 30%;
 }
 
 #pagetext h1{
