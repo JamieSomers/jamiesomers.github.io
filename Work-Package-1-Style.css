@@ -183,6 +183,7 @@ background-size: contain;
 
 #heading{
 	margin-left: 14vw;
+	font-family: verdana;
 }
 
 #image {
@@ -238,7 +239,7 @@ background-size: contain;
 	word-wrap: break-word;
 	font-weight: normal;
 	color: #111111;
-	font-family: var(--font-base, "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif);
+	font-family: verdana;
 	line-height: 1.6;
 	font-size: 1.3em;
 }
