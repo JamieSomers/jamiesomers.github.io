@@ -852,9 +852,11 @@ text-decoration:none;
     position: absolute;
     font-family: arial;
     color: white;
-    top: 63%;
+    top: 45%;
     left: 54vw;
     font-size: 3vh;
+    width: 26vw;
+}
 }
 
 #pagetext h1{
@@ -862,18 +864,19 @@ text-decoration:none;
     font-family: arial;
     color: white;
     top: 45%;
-    font-size: 11.4vh;
+    font-size: 3.4vh;
     text-align: center;
     width: 100vw;
     font-weight: bold;
     z-index: 100;
+    left: -23%;
 }
 
 #pagetext h2{
-position: absolute;
+    position: absolute;
     font-family: arial;
     color: white;
-    top: 67%;
+    top: 50%;
     font-size: 11.4vh;
     text-align: center;
     width: 100vw;
