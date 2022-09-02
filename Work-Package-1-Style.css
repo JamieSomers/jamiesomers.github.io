@@ -80,7 +80,7 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
     overflow: hidden;
     position: absolute;
     z-index: -1;
-    top: -43vw;
+    top: -58vw;
     background-image: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%,rgb(0 0 0) 100%), url(/shutterstock_651111889.jpg);
     background-size: auto 100%;
     background-position: center top;
@@ -1036,7 +1036,7 @@ position: absolute;
   position:absolute;
   width:100vw;
   height:auto;
-  top: calc(103vh - calc(100vh - 100%));
+  top: calc(100vh - calc(100vh - 100%));
   background-color:white;
   z-index: 100;
   padding-bottom: 9vh;
