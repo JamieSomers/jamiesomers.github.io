@@ -122,6 +122,14 @@ z-index: -1;
 background-size: contain;
 }
 
+@media (max-width: 38em){
+	  #pagetext h3 {
+    top:75%!important;
+    left: 0vw!important;
+    width: 100vw!important;
+    text-align:center!important;
+	}}
+
 @media (max-width: 93em){
 .James-Background{
   background-size: auto 100%;
@@ -515,13 +523,6 @@ overflow:hidden;
   #Number h1{
     font-size: 5.4vh !important;
     top:29%!important;
-  }
-
-  #pagetext h3 {
-    top:75%!important;
-    left: 0vw!important;
-    width: 100vw!important;
-    text-align:center!important;
   }
 
   #WhoWeAre h2{
