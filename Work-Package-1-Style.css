@@ -502,9 +502,8 @@ overflow:hidden;
   }
 
   #pagetext h1{
-    font-size: 3.4vh !important;
-    top:28%!important;
-    left: 13%!important;
+    top: 49%!important;
+    left: -30%!important;
   }
 
   #
@@ -519,7 +518,9 @@ overflow:hidden;
   }
 
   #pagetext h3 {
-    top:18%!important;
+    top:75%!important;
+    left: 16vw!important;
+    width: 67vw!important;
   }
 
   #WhoWeAre h2{
@@ -881,6 +882,12 @@ text-decoration:none;
     width: 100vw;
     font-weight: bold;
     z-index: 100;
+}
+@media (max-width: 68em){
+	#pagetext h2{
+    top: 55%!important;
+    font-size: 7.4vh!important;
+	}
 }
 
 #pagetext h2 span{
