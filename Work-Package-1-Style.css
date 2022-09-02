@@ -80,13 +80,13 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
     overflow: hidden;
     position: absolute;
     z-index: -1;
-    top: -25vw;
+    top: -43vw;
     background-image: linear-gradient(to bottom, rgb(0 0 0 / 0%) 0%,rgb(0 0 0) 100%), url(/shutterstock_651111889.jpg);
     background-size: auto 100%;
     background-position: center top;
     background-repeat: no-repeat;
     width: 100vw;
-    height: -webkit-fill-available;
+    height: 100vh;
     background-color: white;
     border-bottom-right-radius: 24vw;
     margin-top: 7vw;
@@ -99,10 +99,10 @@ background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0.7) 1
     background-position: center top;
     background-repeat: no-repeat;
     width: 100vw;
-    height: -webkit-fill-available;
+    height: 100vh;
     background-color: white;
     border-bottom-right-radius: 24vw;
-    margin-top: 23vw;
+    margin-top: 8vw;
     border-bottom-left-radius: 24vw;
 }}
 
