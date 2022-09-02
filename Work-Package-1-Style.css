@@ -122,14 +122,6 @@ z-index: -1;
 background-size: contain;
 }
 
-@media (max-width: 38em){
-	  #pagetext h3 {
-    top:75%!important;
-    left: 0vw!important;
-    width: 100vw!important;
-    text-align:center!important;
-	}}
-
 @media (max-width: 93em){
 .James-Background{
   background-size: auto 100%;
@@ -1852,6 +1844,14 @@ h3#date2{
   margin-left: -156px;
   top: -3px;
 }
+
+@media (max-width: 38em){
+	  #pagetext h3 {
+    top:75%!important;
+    left: 0vw!important;
+    width: 100vw!important;
+    text-align:center!important;
+	}}
 
 #footer{
   position:relative;
