@@ -183,7 +183,7 @@ background-size: contain;
 
 #heading{
 	margin-left: 14vw;
-	font-family: verdana;
+	font-family: Arial;
 }
 
 #image {
@@ -239,7 +239,7 @@ background-size: contain;
 	word-wrap: break-word;
 	font-weight: normal;
 	color: #111111;
-	font-family: verdana;
+	font-family: Arial;
 	line-height: 1.6;
 	font-size: 1.3em;
 }
