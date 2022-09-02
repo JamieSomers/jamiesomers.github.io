@@ -1845,7 +1845,7 @@ h3#date2{
   top: -3px;
 }
 
-@media (max-width: 38em){
+@media (max-width: 65em){
 	  #pagetext h3 {
     top:75%!important;
     left: 0vw!important;
