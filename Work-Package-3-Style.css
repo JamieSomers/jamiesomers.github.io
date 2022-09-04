@@ -874,7 +874,7 @@ text-decoration:none;
     width: 100vw;
     font-weight: bold;
     z-index: 100;
-    left: 27%;
+    left: -27%;
 }
 
 #pagetext h2{
