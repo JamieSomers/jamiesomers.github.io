@@ -313,6 +313,11 @@ overflow-y:hidden;
     bottom: -66px!important;
     left:-22vw!important;
   }
+	
+  #arrow3 {
+    bottom: -66px!important;
+    left:-22vw!important;
+  }
 
   #WhoWeAre a{
     top: -30vw!important;
@@ -679,6 +684,15 @@ color: white;
   left:1vw;
   filter:invert(1);
   transform: rotateZ(360deg);
+}
+
+#arrow3 {
+  position:relative;
+  width: 40px;
+  bottom: -10px;
+  left:1vw;
+  filter:invert(1);
+  transform: rotateZ(90deg);
 }
 
 #LearnMore{
