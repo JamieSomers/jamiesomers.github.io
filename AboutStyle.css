@@ -678,7 +678,7 @@ color: white;
   bottom: -10px;
   left:1vw;
   filter:invert(1);
-  transform: rotateZ(89deg);
+  transform: rotateZ(360deg);
 }
 
 #LearnMore{
