@@ -505,7 +505,7 @@ overflow:hidden;
 
   #pagetext h1{
     top: 49%!important;
-    left: -30%!important;
+    left: -35%!important;
   }
 	
   #pagetext h3{
@@ -873,7 +873,7 @@ text-decoration:none;
     width: 100vw;
     font-weight: bold;
     z-index: 100;
-    left: -23%;
+    left: -24%;
 }
 
 #pagetext h2{
