@@ -503,6 +503,7 @@ color: white;
   top:67.5vh;
   left:10vw;
   filter:invert(1);
+  transform:rotate(90deg);
 }
 
 #LearnMore{
