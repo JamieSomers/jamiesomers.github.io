@@ -199,6 +199,12 @@ position:absolute;
     left: calc(21vw + 131px)!important;
     margin-left: 15vw!important;
   }
+	
+  #grant{
+    width: 35vh!important;
+    top: -214px!important;
+    text-align: justify!important;  
+  }
 
   #funding{
     display:none!important;
