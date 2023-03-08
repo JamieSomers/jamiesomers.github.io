@@ -202,7 +202,7 @@ position:absolute;
 	
   #grant{
     width: 35vh!important;
-    top: -214px!important;
+    top: -182px!important;
     text-align: justify!important;  
   }
 
@@ -547,7 +547,7 @@ color: white;
     left: 10vw;
     font-size: 1.7vh;
     width: 71vh;
-    line-height: 20px;
+    line-height: 16px;
     top: -71px;
     font-style: italic;
 }
