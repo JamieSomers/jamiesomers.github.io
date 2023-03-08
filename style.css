@@ -534,6 +534,18 @@ color: white;
   line-height:20px;
 }
 
+#grant{
+    position: absolute;
+    font-family: arial;
+    color: white;
+    left: 10vw;
+    font-size: 1.7vh;
+    width: 71vh;
+    line-height: 20px;
+    top: -71px;
+    font-style: italic;
+}
+
 #email{
   position: absolute;
   font-family: arial;
