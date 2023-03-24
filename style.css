@@ -278,6 +278,12 @@ position:absolute;
     text-align:center!important;
     margin-top:50vh!important;
   }
+	
+  #Thanks h2{
+    left: 2%!important;
+    font-size: 5.7vh!important;
+    text-align:center!important;
+  }
 
   #ContactUs h2{
     left: 2%!important;
@@ -734,6 +740,31 @@ color: white;
 }
 
 #ProjectsBlurb {
+ position: relative;
+ font-family: arial;
+ color: white;
+ padding-top:3vh;
+ font-size: 2vh;
+ width: 489px;
+ text-align:justify;
+ margin:auto;
+}
+
+#Thanks h2{
+  position: relative;
+  font-family: arial;
+  color: white;
+  font-size: 7.2vh;
+  width: 90vw;
+  text-align:center;
+  margin:auto;
+}
+
+#Thanks h2 span{
+  color: #6ea66e;
+}
+
+#ThanksBlurb {
  position: relative;
  font-family: arial;
  color: white;
