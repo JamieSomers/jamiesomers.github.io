@@ -65,7 +65,7 @@ overflow-y:hidden;
   margin-left:8vh;
 }
 
-@media (min-width:63em) {
+@media (min-width:1290px) {
   #videoBG {
     width:100%;
     height:auto;
@@ -95,14 +95,14 @@ overflow-y:hidden;
   }
 }
 
-@media(max-height:30em) and (max-width:60em) {
+@media(max-height:960px) and (max-width:1290px) {
   #videoBG {
     width:100%!important;
     height:auto!important;
   }
 }
 
-@media (max-width:63em) {
+@media (max-width:1290px) {
   #videoBG {
     width:auto;
     height:100%;
