@@ -201,7 +201,7 @@ position:absolute;
   }
 	
   #grant{
-    width: 40vh!important;
+    width: 34vh!important;
     top: -165px!important;  
   }
 
@@ -550,10 +550,10 @@ color: white;
     font-family: arial;
     color: white;
     left: 10vw;
-    font-size: 1.7vh;
-    width: 71vh;
+    font-size: 1.3vh;
+    width: 70vh;
     line-height: 16px;
-    top: -71px;
+    top: -38px;
     font-style: italic;
 }
 
