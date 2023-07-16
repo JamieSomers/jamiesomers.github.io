@@ -95,7 +95,7 @@ overflow-y:hidden;
   }
 }
 
-@media(min-height:960px) and (max-width:1290px) {
+@media(max-height:30em) and (max-width:1290px) {
   #videoBG {
     width:100%!important;
     height:auto!important;
